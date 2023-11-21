@@ -1,9 +1,7 @@
 branch-defaults:
-  default:
-    environment: null
-    group_suffix: null
   main:
-    environment: stage-neo4j
+    environment: stage-infinispan
+    group_suffix: null
 global:
   application_name: infinispan-server
   branch: null
